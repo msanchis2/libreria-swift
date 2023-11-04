@@ -63,7 +63,6 @@
 					<th>ISBN</th>
 					<th>Editor</th>
 					<th>Precio</th>
-					<th>Acciones</th>
 				</tr>
 				<?php
 				$limit = 10; // Cantidad de resultados por página
