@@ -85,13 +85,13 @@ if (!isset($_SESSION['usuario'])) {
 				<div class="form-group">
 					<label class="col-sm-3 control-label">Autor</label>
 					<div class="col-sm-4">
-						<input type="text" name="Autor" class="form-control" placeholder="Autor" required>
+						<input type="text" name="Autor" class="form-control" placeholder="Autor">
 					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-sm-3 control-label">PalabrasClave</label>
 					<div class="col-sm-4">
-						<input type="text" name="PalabrasClave" class="form-control" placeholder="PalabrasClave" required>
+						<input type="text" name="PalabrasClave" class="form-control" placeholder="PalabrasClave">
 					</div>
 				</div>
 				<div class="form-group">
@@ -103,7 +103,7 @@ if (!isset($_SESSION['usuario'])) {
 				<div class="form-group">
 					<label class="col-sm-3 control-label">ISBN</label>
 					<div class="col-sm-3">
-						<input type="text" name="ISBN" class="form-control"  placeholder="ISBN" required>
+						<input type="text" name="ISBN" class="form-control"  placeholder="ISBN">
 					</div>
 				</div>
 				<div class="form-group">

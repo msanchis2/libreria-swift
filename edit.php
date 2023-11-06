@@ -100,13 +100,13 @@ if (!isset($_SESSION['usuario'])) {
 				<div class="form-group">
 					<label class="col-sm-3 control-label">Autor</label>
 					<div class="col-sm-4">
-						<input type="text" name="Autor" value="<?php echo $row ['Autor']; ?>" class="form-control" placeholder="Autor" required>
+						<input type="text" name="Autor" value="<?php echo $row ['Autor']; ?>" class="form-control" placeholder="Autor">
 					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-sm-3 control-label">Palabras Clave</label>
 					<div class="col-sm-4">
-						<input type="text" name="PalabrasClave" value="<?php echo $row ['PalabrasClave']; ?>" class="form-control" placeholder="Palabras clave" required>
+						<input type="text" name="PalabrasClave" value="<?php echo $row ['PalabrasClave']; ?>" class="form-control" placeholder="Palabras clave">
 					</div>
 				</div>
 				<div class="form-group">
@@ -118,7 +118,7 @@ if (!isset($_SESSION['usuario'])) {
 				<div class="form-group">
 					<label class="col-sm-3 control-label">ISBN</label>
 					<div class="col-sm-3">
-						<input type="text" name="ISBN" value="<?php echo $row ['ISBN']; ?>" class="form-control" placeholder="ISBN" required>
+						<input type="text" name="ISBN" value="<?php echo $row ['ISBN']; ?>" class="form-control" placeholder="ISBN">
 					</div>
 				</div>
 				<div class="form-group">
